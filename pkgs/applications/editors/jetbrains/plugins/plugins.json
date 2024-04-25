@@ -108,8 +108,8 @@
         "phpstorm"
       ],
       "builds": {
-        "241.14494.240": "https://plugins.jetbrains.com/files/7219/525744/Symfony_Plugin-2023.1.270.zip",
-        "241.15989.102": "https://plugins.jetbrains.com/files/7219/525744/Symfony_Plugin-2023.1.270.zip"
+        "241.14494.237": "https://plugins.jetbrains.com/files/7219/525744/Symfony_Plugin-2023.1.270.zip",
+        "241.14494.240": "https://plugins.jetbrains.com/files/7219/525744/Symfony_Plugin-2023.1.270.zip"
       },
       "name": "symfony-support"
     },
@@ -382,6 +382,27 @@
       },
       "name": "visual-studio-keymap"
     },
+    "13499": {
+      "compatible": [
+        "clion",
+        "datagrip",
+        "goland",
+        "idea-community",
+        "idea-ultimate",
+        "pycharm-community",
+        "pycharm-professional",
+        "rider"
+      ],
+      "builds": {
+        "241.14494.238": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip",
+        "241.14494.240": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip",
+        "241.14494.241": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip",
+        "241.14494.283": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip",
+        "241.14494.288": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip",
+        "241.14494.307": "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip"
+      },
+      "name": "odoo"
+    },
     "14059": {
       "compatible": [
         "clion",
@@ -482,9 +503,9 @@
         "rust-rover"
       ],
       "builds": {
+        "233.15026.24": "https://plugins.jetbrains.com/files/22407/526878/intellij-rust-233.25989.101.zip",
         "241.14494.240": "https://plugins.jetbrains.com/files/22407/526873/intellij-rust-241.25989.101.zip",
-        "241.15989.101": "https://plugins.jetbrains.com/files/22407/526873/intellij-rust-241.25989.101.zip",
-        "241.15989.121": "https://plugins.jetbrains.com/files/22407/526873/intellij-rust-241.25989.101.zip"
+        "241.14494.288": "https://plugins.jetbrains.com/files/22407/526873/intellij-rust-241.25989.101.zip"
       },
       "name": "rust"
     }
@@ -498,14 +519,16 @@
     "https://plugins.jetbrains.com/files/12559/508216/keymap-eclipse-241.14494.150.zip": "sha256-/hEx0gIFvUXD799tRmMHAt9Z5ziFgaQs1RX0zQwTJIA=",
     "https://plugins.jetbrains.com/files/13017/445774/keymap-visualStudio-233.11799.165.zip": "sha256-Nb2tSxL+mAY1qJ3waipgV8ep+0R/BaYnzz7zfwtLHmk=",
     "https://plugins.jetbrains.com/files/13017/508253/keymap-visualStudio-241.14494.150.zip": "sha256-tNgt0vIkdCB/LcaSj58mT6cNlw4lytRo0cZSt7sIERU=",
+    "https://plugins.jetbrains.com/files/13499/526631/Odoo-2024.3.3.241.zip": "sha256-okXZT7lygJsaxA052Sicy8jCpYIUn/nKckxVPQSBa50=",
     "https://plugins.jetbrains.com/files/14059/82616/darcula-pitch-black.jar": "sha256-eXInfAqY3yEZRXCAuv3KGldM1pNKEioNwPB0rIGgJFw=",
     "https://plugins.jetbrains.com/files/164/515255/IdeaVim-2.10.2-signed.zip": "sha256-FP6th8J3ymfTrwvJ3Ms7fsNPh3f9ab5ZVg5yPpKV/rY=",
     "https://plugins.jetbrains.com/files/17718/517133/github-copilot-intellij-1.5.2.5345.zip": "sha256-BaBYXN8eulaJtJSKrz9bZ2Yn8029goSAUvjYU+BaiIU=",
     "https://plugins.jetbrains.com/files/18444/165585/NetBeans6.5Keymap.zip": "sha256-KrzZTKZMQqoEMw+vDUv2jjs0EX0leaPBkU8H/ecq/oI=",
     "https://plugins.jetbrains.com/files/22407/526873/intellij-rust-241.25989.101.zip": "sha256-v1r14zx591Vr8JmQxfysQ/aO8HDYCorwnnOEKDIfx+Y=",
+    "https://plugins.jetbrains.com/files/22407/526878/intellij-rust-233.25989.101.zip": "sha256-nX22eF72O5s7fLtsRfoAGm/c0zlClvfRC0n3+lorIVY=",
     "https://plugins.jetbrains.com/files/631/521307/python-241.14494.314.zip": "sha256-LFPN3bURT4gauDdoOgs+Rnq90RZ68/mrpw7/hfsq7VI=",
+    "https://plugins.jetbrains.com/files/6981/509027/ini-233.15026.15.zip": "sha256-6sTD+OFO/yA7m5o0XqoJKLcQ4zAFro7Iy7WNPfA49xM=",
     "https://plugins.jetbrains.com/files/6981/513562/ini-241.14494.240.zip": "sha256-QC42nC7mEE3X1cmKj8jkwzpDJzX7ZoOPEd9y6i8IuvM=",
-    "https://plugins.jetbrains.com/files/6981/527916/ini-241.15989.113.zip": "sha256-JgFoDqeMxdg3E9ZWHVsJGSygKAifFCEa9S+RdLFkLBI=",
     "https://plugins.jetbrains.com/files/7219/525744/Symfony_Plugin-2023.1.270.zip": "sha256-JSMTavSX9dzcOjbeuI7HBThtztwkyUqGOtCXNbCsfio=",
     "https://plugins.jetbrains.com/files/7320/507957/PHP_Annotations-10.0.0.zip": "sha256-JIZ6Iq3sOcAm8fBXnjRrG9dqCZuD/WajyVmn1JjYMBA=",
     "https://plugins.jetbrains.com/files/7322/513587/python-ce-241.14494.240.zip": "sha256-6YC/aoiTRLAh87C2v3k24BLBH/tsdTWuDK/CBv8y1QI=",
