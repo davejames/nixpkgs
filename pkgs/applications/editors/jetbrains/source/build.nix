@@ -98,6 +98,7 @@ let
     version = buildVer;
     inherit src;
     sourceRoot = "source/native/fsNotifier/linux";
+    patches = [ ../patches/fsnotifier-hardlink-support.patch ];
     buildPhase = ''
       runHook preBuild
       cc -O2 -Wall -Wextra -Wpedantic -D "VERSION=\"${buildVer}\"" -std=c11 main.c inotify.c util.c -o fsnotifier
