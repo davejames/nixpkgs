@@ -9,10 +9,10 @@ Subject: [PATCH] [fsNotifier] IDEA-126491 handle hard links
  native/fsNotifier/linux/main.c       |   4 +-
  3 files changed, 92 insertions(+), 75 deletions(-)
 
-diff --git a/native/fsNotifier/linux/fsnotifier.h
+diff --git a/native/fsNotifier/linux/fsnotifier.h b/native/fsNotifier/linux/fsnotifier.h
 index d5fec6261ac37..8acf9f937ff68 100644
---- a/native/fsNotifier/linux/fsnotifier.h
-+++ b/native/fsNotifier/linux/fsnotifier.h
+--- a/fsnotifier.h
++++ b/fsnotifier.h
 @@ -61,7 +61,7 @@ bool init_inotify();
  void set_inotify_callback(void (*callback)(const char *, uint32_t));
  int get_inotify_fd();
@@ -22,10 +22,10 @@ index d5fec6261ac37..8acf9f937ff68 100644
  bool process_inotify_input();
  void close_inotify();
  
-diff --git a/native/fsNotifier/linux/inotify.c
+diff --git a/native/fsNotifier/linux/inotify.c b/native/fsNotifier/linux/inotify.c
 index ac21ec9e8a74a..cdeab5ac43a3f 100644
---- a/native/fsNotifier/linux/inotify.c
-+++ b/native/fsNotifier/linux/inotify.c
+--- a/inotify.c
++++ b/inotify.c
 @@ -22,6 +22,8 @@ typedef struct watch_node_str {
    struct watch_node_str* parent;
    array* kids;
@@ -274,10 +274,10 @@ index ac21ec9e8a74a..cdeab5ac43a3f 100644
        }
      }
    }
-diff --git a/native/fsNotifier/linux/main.c
+diff --git a/native/fsNotifier/linux/main.c b/native/fsNotifier/linux/main.c
 index a8d2fd07cf712..7cd7f46423132 100644
---- a/native/fsNotifier/linux/main.c
-+++ b/native/fsNotifier/linux/main.c
+--- a/main.c
++++ b/main.c
 @@ -246,7 +246,7 @@ static void unregister_roots() {
    watch_root* root;
    while ((root = array_pop(roots)) != NULL) {
