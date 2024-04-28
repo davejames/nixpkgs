@@ -19,8 +19,8 @@ index d5fec6261ac37..8acf9f937ff68 100644
  int watch(const char* root, array* mounts);
 -void unwatch(int id);
 +void unwatch(int id, char* path, unsigned int path_len);
- bool process_inotify_input();
- void close_inotify();
+ bool process_inotify_input(void);
+ void close_inotify(void);
  
 diff --git a/native/fsNotifier/linux/inotify.c b/native/fsNotifier/linux/inotify.c
 index ac21ec9e8a74a..cdeab5ac43a3f 100644
